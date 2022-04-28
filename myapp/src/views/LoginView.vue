@@ -31,10 +31,6 @@
             };
         },
 
-        created() {
-            Cookie.remove('_myapp_token');
-        },
-
         methods: {
             submit() {
                 const payload = {
