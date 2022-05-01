@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
+import DashboardView from '../views/DashboardView.vue'
 import Guard from '../services/middleware'
 
 const routes = [
@@ -11,8 +11,9 @@ const routes = [
   },
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
+    name: 'DashboardView',
+    component: DashboardView,
+    beforeEnter: Guard.auth
   },
   {
     path: '/about',
