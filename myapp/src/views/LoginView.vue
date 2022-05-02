@@ -21,6 +21,7 @@
 
 <script>
     import Cookie from 'js-cookie';
+    import router from '@/router';
     export default {
         name: 'LoginView',
     
@@ -49,7 +50,12 @@
                 })
                 .then(response => response.json())
                 .then(res => {
-                    Cookie.set('_myapp_token', res.access_token);
+                    if (res.access_token != undefined)
+                    {
+                        Cookie.set('_myapp_token', res.access_token);
+                        router.push("/");
+                    } else
+                        alert("Email ou senha inválidos");
                 })
             },
         },

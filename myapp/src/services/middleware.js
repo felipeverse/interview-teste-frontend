@@ -5,7 +5,7 @@ export default {
         const token = Cookie.get('_myapp_token');
         // deve ser feito um ajax para o backend para checar validade do token
 
-        if (!token) {
+        if (!token || token == 'undefined') {
             next('/login');
         }
 
