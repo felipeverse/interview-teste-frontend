@@ -1,4 +1,4 @@
-Este foi meu primeiro projeto em Vue, fiz seguindo tutoriais e documentações apenas para consumo da API desenvolvida por mim em Laravel [Link do repositório](https://github.com/felipeverse/interview-teste-backend), possivelmente há diversas falhas de segurança e falta de padrões pela minha falta de experiência.
+Este foi meu primeiro projeto em Vue, fiz seguindo tutoriais e documentações apenas para consumo da API desenvolvida por mim em Laravel [Link do repositório](https://github.com/felipeverse/interview-teste-backend), possivelmente há diversas falhas de segurança e falta de padrões devido a minha falta de experiência.
 
 ![Screenshot from 2022-05-02 07-26-18](https://user-images.githubusercontent.com/70995453/166227499-c3499105-c200-4107-82ea-5d390849e53c.png)
 ![Screenshot from 2022-05-02 07-26-31](https://user-images.githubusercontent.com/70995453/166227512-bd33ad1a-b0a6-4d49-aaa6-c917e7fb66e6.png)
